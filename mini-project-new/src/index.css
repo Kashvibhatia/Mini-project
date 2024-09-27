@@ -1,0 +1,50 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Default font for the body */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 20px; /* Padding for the navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px; /* Adjust logo size */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and title */
+}
+
+.navbar-title {
+  font-size: 1.5em; /* Title font size */
+  font-family: 'Roboto', sans-serif; /* Change to your preferred font */
+  color: black; /* IKEA brand color */
+  letter-spacing: 1px; /* Spacing between letters */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.navbar-links a {
+  font-size: 1.1em; /* Font size */
+  color: #333; /* Link color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding around links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-links a:hover {
+  color: #d31a24; /* Change color on hover */
+}

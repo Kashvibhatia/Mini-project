@@ -1,0 +1,13 @@
+/* src/loginscreen/Products.css */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-image: url('../images/background-image1.webp'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh; /* Ensure the container covers the full height */
+    color: white;
+  }
+  
